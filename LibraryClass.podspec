@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LibraryClass'
-  s.version          = '0.6'
+  s.version          = '0.7'
   s.summary          = 'LibraryClass.'
 
   s.description      = <<-DESC
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
     end
     s.subspec 'PayID' do |pay|
         pay.resource_bundle= {
-        'gesture' => ['PayID/payImage/*.png']
+        'payImage' => ['PayID/Asstes/*.png']
         }
     end
 

@@ -201,7 +201,7 @@
 		A905457222C9BCC800396728 /* PayID */ = {
 			isa = PBXGroup;
 			children = (
-				A905459222C9CB2300396728 /* payImage */,
+				A905459222C9CB2300396728 /* Asstes */,
 				A905457322C9BCC800396728 /* YZAuthID.m */,
 				A905457422C9BCC800396728 /* YZAuthID.h */,
 			);
@@ -218,7 +218,7 @@
 			path = HUD_module;
 			sourceTree = "<group>";
 		};
-		A905459222C9CB2300396728 /* payImage */ = {
+		A905459222C9CB2300396728 /* Asstes */ = {
 			isa = PBXGroup;
 			children = (
 				A905458122C9C29C00396728 /* selective gestures.png */,
@@ -233,7 +233,7 @@
 				A905457E22C9C29B00396728 /* gesture_indicator_normal@2x.png */,
 				A905457C22C9C29B00396728 /* gesture_headIcon@2x.png */,
 			);
-			path = payImage;
+			path = Asstes;
 			sourceTree = "<group>";
 		};
 		AC95FC809F4CA3F642FC7238 /* Pods */ = {
