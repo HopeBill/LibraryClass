@@ -20,15 +20,15 @@ TODO: Add long description of the pod here.
 #s.source_files = 'LibraryClass/**/*'
 
     s.subspec 'RequestAPI_module' do |req|
-    req = 'LibraryClass/RequestAPI_module/**/*'
+    req.source_files = 'LibraryClass/RequestAPI_module/**/*'
     end
 
     s.subspec 'API_Categories' do |categ|
-    categ = 'LibraryClass/API_Categories/**/*'
+    categ.source_files = 'LibraryClass/API_Categories/**/*'
     end
 
     s.subspec 'WUGestureUnlockView' do |wuges|
-    wuges = 'LibraryClass/WUGestureUnlockView/**/*'
+    wuges.source_files = 'LibraryClass/WUGestureUnlockView/**/*'
     end
 
   s.resource_bundles = {

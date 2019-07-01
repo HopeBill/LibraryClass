@@ -14,11 +14,20 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - LibraryClass (0.1):
+  - LibraryClass (0.2):
+    - AFNetworking (~> 3.1.0)
+    - LibraryClass/API_Categories (= 0.2)
+    - LibraryClass/RequestAPI_module (= 0.2)
+    - LibraryClass/WUGestureUnlockView (= 0.2)
+  - LibraryClass/API_Categories (0.2):
+    - AFNetworking (~> 3.1.0)
+  - LibraryClass/RequestAPI_module (0.2):
+    - AFNetworking (~> 3.1.0)
+  - LibraryClass/WUGestureUnlockView (0.2):
     - AFNetworking (~> 3.1.0)
 
 DEPENDENCIES:
-  - LibraryClass
+  - LibraryClass (~> 0.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -28,8 +37,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  LibraryClass: 9f3203efae609244eefc99656db80d5fd86dee06
+  LibraryClass: aa68b4e91315b039233676b97b8f01edac7441fa
 
-PODFILE CHECKSUM: fd22a4d7007dddda88f49c2535df38f2b4e6bc42
+PODFILE CHECKSUM: 4302f3f94ea3657e81097224a1ab0f6b4fcd2a84
 
 COCOAPODS: 1.5.3
