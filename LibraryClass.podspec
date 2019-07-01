@@ -19,10 +19,22 @@ TODO: Add long description of the pod here.
 
 #s.source_files = 'LibraryClass/**/*'
 
+    s.subspec 'RequestAPI_module' do |req|
+    req = 'LibraryClass/RequestAPI_module/**/*'
+    end
 
-  # s.resource_bundles = {
-  #   'LibraryClass' => ['LibraryClass/Assets/*.png']
-  # }
+    s.subspec 'API_Categories' do |categ|
+    categ = 'LibraryClass/API_Categories/**/*'
+    end
+
+    s.subspec 'WUGestureUnlockView' do |wuges|
+    wuges = 'LibraryClass/WUGestureUnlockView/**/*'
+    end
+
+
+  s.resource_bundles = {
+    'wuges' => ['WUGestureUnlockView/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit'

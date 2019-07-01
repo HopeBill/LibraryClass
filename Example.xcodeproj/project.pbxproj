@@ -16,6 +16,36 @@
 		A90544CC22C8DA4100396728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544CB22C8DA4100396728 /* main.m */; };
 		A90544D622C8DA4200396728 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544D522C8DA4200396728 /* ExampleTests.m */; };
 		A90544E122C8DA4200396728 /* ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544E022C8DA4200396728 /* ExampleUITests.m */; };
+		A90544EF22C8E0FE00396728 /* LibraryClass.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A90544EE22C8E0FE00396728 /* LibraryClass.podspec */; };
+		A905450F22C9986A00396728 /* NSArray+Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544F222C9986A00396728 /* NSArray+Request.m */; };
+		A905451022C9986A00396728 /* NSErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544F722C9986A00396728 /* NSErrorHelper.m */; };
+		A905451122C9986A00396728 /* NSDictionary+Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544F922C9986A00396728 /* NSDictionary+Request.m */; };
+		A905451222C9986A00396728 /* RequestAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544FA22C9986A00396728 /* RequestAPIManager.m */; };
+		A905451322C9986A00396728 /* RequestBaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544FB22C9986A00396728 /* RequestBaseAPI.m */; };
+		A905451422C9986A00396728 /* RequestAPIManager+OrderInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544FD22C9986A00396728 /* RequestAPIManager+OrderInformation.m */; };
+		A905451522C9986A00396728 /* RequestAPIManager+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = A905450022C9986A00396728 /* RequestAPIManager+Message.m */; };
+		A905451622C9986A00396728 /* RequestAPIManager+CenterInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = A905450522C9986A00396728 /* RequestAPIManager+CenterInformation.m */; };
+		A905451722C9986A00396728 /* RequestAPIManager+storeInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = A905450622C9986A00396728 /* RequestAPIManager+storeInformation.m */; };
+		A905451822C9986A00396728 /* RequestAPIManager+Details.m in Sources */ = {isa = PBXBuildFile; fileRef = A905450922C9986A00396728 /* RequestAPIManager+Details.m */; };
+		A905451922C9986A00396728 /* RequestAPIManager+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = A905450B22C9986A00396728 /* RequestAPIManager+Home.m */; };
+		A905451A22C9986A00396728 /* RequestAPIManager+shoppingCar.m in Sources */ = {isa = PBXBuildFile; fileRef = A905450C22C9986A00396728 /* RequestAPIManager+shoppingCar.m */; };
+		A905451B22C9986A00396728 /* RequestAPIManager+Store.m in Sources */ = {isa = PBXBuildFile; fileRef = A905450D22C9986A00396728 /* RequestAPIManager+Store.m */; };
+		A905451C22C9986A00396728 /* RequestAPIManager+PersonalInformationAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A905450E22C9986A00396728 /* RequestAPIManager+PersonalInformationAPI.m */; };
+		A905453022C99BF900396728 /* gesture_headIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905451F22C99BF900396728 /* gesture_headIcon@2x.png */; };
+		A905453122C99BF900396728 /* WUGesturesUnlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A905452022C99BF900396728 /* WUGesturesUnlockViewController.xib */; };
+		A905453222C99BF900396728 /* gesture_indicator_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452122C99BF900396728 /* gesture_indicator_normal@2x.png */; };
+		A905453322C99BF900396728 /* WUGesturesUnlockIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A905452422C99BF900396728 /* WUGesturesUnlockIndicator.m */; };
+		A905453422C99BF900396728 /* gesture_indicator_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452522C99BF900396728 /* gesture_indicator_selected@2x.png */; };
+		A905453522C99BF900396728 /* gesture_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452622C99BF900396728 /* gesture_normal@2x.png */; };
+		A905453622C99BF900396728 /* gesture_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452722C99BF900396728 /* gesture_selected@2x.png */; };
+		A905453722C99BF900396728 /* selective gestures.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452822C99BF900396728 /* selective gestures.png */; };
+		A905453822C99BF900396728 /* gesture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452922C99BF900396728 /* gesture@2x.png */; };
+		A905453922C99BF900396728 /* WUGesturesUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A905452A22C99BF900396728 /* WUGesturesUnlockViewController.m */; };
+		A905453A22C99BF900396728 /* selective gestures@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452B22C99BF900396728 /* selective gestures@3x.png */; };
+		A905453B22C99BF900396728 /* selective gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452C22C99BF900396728 /* selective gestures@2x.png */; };
+		A905453C22C99BF900396728 /* gesture.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452D22C99BF900396728 /* gesture.png */; };
+		A905453D22C99BFA00396728 /* WUGesturesUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = A905452E22C99BF900396728 /* WUGesturesUnlockView.m */; };
+		A905453E22C99BFA00396728 /* gesture@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452F22C99BF900396728 /* gesture@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +83,53 @@
 		A90544DC22C8DA4200396728 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90544E022C8DA4200396728 /* ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUITests.m; sourceTree = "<group>"; };
 		A90544E222C8DA4200396728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90544EE22C8E0FE00396728 /* LibraryClass.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LibraryClass.podspec; sourceTree = SOURCE_ROOT; };
+		A90544F222C9986A00396728 /* NSArray+Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Request.m"; sourceTree = "<group>"; };
+		A90544F322C9986A00396728 /* NSErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSErrorHelper.h; sourceTree = "<group>"; };
+		A90544F422C9986A00396728 /* NSDictionary+Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Request.h"; sourceTree = "<group>"; };
+		A90544F522C9986A00396728 /* RequestAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestAPIManager.h; sourceTree = "<group>"; };
+		A90544F622C9986A00396728 /* RequestBaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestBaseAPI.h; sourceTree = "<group>"; };
+		A90544F722C9986A00396728 /* NSErrorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSErrorHelper.m; sourceTree = "<group>"; };
+		A90544F822C9986A00396728 /* NSArray+Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Request.h"; sourceTree = "<group>"; };
+		A90544F922C9986A00396728 /* NSDictionary+Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Request.m"; sourceTree = "<group>"; };
+		A90544FA22C9986A00396728 /* RequestAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestAPIManager.m; sourceTree = "<group>"; };
+		A90544FB22C9986A00396728 /* RequestBaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestBaseAPI.m; sourceTree = "<group>"; };
+		A90544FD22C9986A00396728 /* RequestAPIManager+OrderInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestAPIManager+OrderInformation.m"; sourceTree = "<group>"; };
+		A90544FE22C9986A00396728 /* RequestAPIManager+storeInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RequestAPIManager+storeInformation.h"; sourceTree = "<group>"; };
+		A90544FF22C9986A00396728 /* RequestAPIManager+Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RequestAPIManager+Details.h"; sourceTree = "<group>"; };
+		A905450022C9986A00396728 /* RequestAPIManager+Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestAPIManager+Message.m"; sourceTree = "<group>"; };
+		A905450122C9986A00396728 /* RequestAPIManager+PersonalInformationAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RequestAPIManager+PersonalInformationAPI.h"; sourceTree = "<group>"; };
+		A905450222C9986A00396728 /* RequestAPIManager+Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RequestAPIManager+Store.h"; sourceTree = "<group>"; };
+		A905450322C9986A00396728 /* RequestAPIManager+shoppingCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RequestAPIManager+shoppingCar.h"; sourceTree = "<group>"; };
+		A905450422C9986A00396728 /* RequestAPIManager+Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RequestAPIManager+Home.h"; sourceTree = "<group>"; };
+		A905450522C9986A00396728 /* RequestAPIManager+CenterInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestAPIManager+CenterInformation.m"; sourceTree = "<group>"; };
+		A905450622C9986A00396728 /* RequestAPIManager+storeInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestAPIManager+storeInformation.m"; sourceTree = "<group>"; };
+		A905450722C9986A00396728 /* RequestAPIManager+OrderInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RequestAPIManager+OrderInformation.h"; sourceTree = "<group>"; };
+		A905450822C9986A00396728 /* RequestAPIManager+Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RequestAPIManager+Message.h"; sourceTree = "<group>"; };
+		A905450922C9986A00396728 /* RequestAPIManager+Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestAPIManager+Details.m"; sourceTree = "<group>"; };
+		A905450A22C9986A00396728 /* RequestAPIManager+CenterInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RequestAPIManager+CenterInformation.h"; sourceTree = "<group>"; };
+		A905450B22C9986A00396728 /* RequestAPIManager+Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestAPIManager+Home.m"; sourceTree = "<group>"; };
+		A905450C22C9986A00396728 /* RequestAPIManager+shoppingCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestAPIManager+shoppingCar.m"; sourceTree = "<group>"; };
+		A905450D22C9986A00396728 /* RequestAPIManager+Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestAPIManager+Store.m"; sourceTree = "<group>"; };
+		A905450E22C9986A00396728 /* RequestAPIManager+PersonalInformationAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestAPIManager+PersonalInformationAPI.m"; sourceTree = "<group>"; };
+		A905451E22C99BF900396728 /* WUGesturesUnlockIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUGesturesUnlockIndicator.h; sourceTree = "<group>"; };
+		A905451F22C99BF900396728 /* gesture_headIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_headIcon@2x.png"; sourceTree = "<group>"; };
+		A905452022C99BF900396728 /* WUGesturesUnlockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUGesturesUnlockViewController.xib; sourceTree = "<group>"; };
+		A905452122C99BF900396728 /* gesture_indicator_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_indicator_normal@2x.png"; sourceTree = "<group>"; };
+		A905452222C99BF900396728 /* WUGesturesUnlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUGesturesUnlockViewController.h; sourceTree = "<group>"; };
+		A905452322C99BF900396728 /* WUGesturesUnlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUGesturesUnlockView.h; sourceTree = "<group>"; };
+		A905452422C99BF900396728 /* WUGesturesUnlockIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUGesturesUnlockIndicator.m; sourceTree = "<group>"; };
+		A905452522C99BF900396728 /* gesture_indicator_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_indicator_selected@2x.png"; sourceTree = "<group>"; };
+		A905452622C99BF900396728 /* gesture_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_normal@2x.png"; sourceTree = "<group>"; };
+		A905452722C99BF900396728 /* gesture_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_selected@2x.png"; sourceTree = "<group>"; };
+		A905452822C99BF900396728 /* selective gestures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures.png"; sourceTree = "<group>"; };
+		A905452922C99BF900396728 /* gesture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture@2x.png"; sourceTree = "<group>"; };
+		A905452A22C99BF900396728 /* WUGesturesUnlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUGesturesUnlockViewController.m; sourceTree = "<group>"; };
+		A905452B22C99BF900396728 /* selective gestures@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures@3x.png"; sourceTree = "<group>"; };
+		A905452C22C99BF900396728 /* selective gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures@2x.png"; sourceTree = "<group>"; };
+		A905452D22C99BF900396728 /* gesture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture.png; sourceTree = "<group>"; };
+		A905452E22C99BF900396728 /* WUGesturesUnlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUGesturesUnlockView.m; sourceTree = "<group>"; };
+		A905452F22C99BF900396728 /* gesture@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture@3x.png"; sourceTree = "<group>"; };
 		EBB5E2BE3566EFCA2A4C6581 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1696955440402EA77BD836 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +193,8 @@
 		A90544BB22C8DA4100396728 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				A90544F022C9986A00396728 /* LibraryClass */,
+				A90544EE22C8E0FE00396728 /* LibraryClass.podspec */,
 				A90544BC22C8DA4100396728 /* AppDelegate.h */,
 				A90544BD22C8DA4100396728 /* AppDelegate.m */,
 				A90544BF22C8DA4100396728 /* ViewController.h */,
@@ -145,6 +224,91 @@
 				A90544E222C8DA4200396728 /* Info.plist */,
 			);
 			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+		A90544F022C9986A00396728 /* LibraryClass */ = {
+			isa = PBXGroup;
+			children = (
+				A905451D22C99BF900396728 /* WUGestureUnlockView */,
+				A90544F122C9986A00396728 /* RequestAPI_module */,
+				A90544FC22C9986A00396728 /* API_Categories */,
+			);
+			path = LibraryClass;
+			sourceTree = SOURCE_ROOT;
+		};
+		A90544F122C9986A00396728 /* RequestAPI_module */ = {
+			isa = PBXGroup;
+			children = (
+				A90544F322C9986A00396728 /* NSErrorHelper.h */,
+				A90544F722C9986A00396728 /* NSErrorHelper.m */,
+				A90544F622C9986A00396728 /* RequestBaseAPI.h */,
+				A90544FB22C9986A00396728 /* RequestBaseAPI.m */,
+				A90544F522C9986A00396728 /* RequestAPIManager.h */,
+				A90544FA22C9986A00396728 /* RequestAPIManager.m */,
+				A90544F422C9986A00396728 /* NSDictionary+Request.h */,
+				A90544F922C9986A00396728 /* NSDictionary+Request.m */,
+				A90544F822C9986A00396728 /* NSArray+Request.h */,
+				A90544F222C9986A00396728 /* NSArray+Request.m */,
+			);
+			path = RequestAPI_module;
+			sourceTree = "<group>";
+		};
+		A90544FC22C9986A00396728 /* API_Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A90544FD22C9986A00396728 /* RequestAPIManager+OrderInformation.m */,
+				A90544FE22C9986A00396728 /* RequestAPIManager+storeInformation.h */,
+				A90544FF22C9986A00396728 /* RequestAPIManager+Details.h */,
+				A905450022C9986A00396728 /* RequestAPIManager+Message.m */,
+				A905450122C9986A00396728 /* RequestAPIManager+PersonalInformationAPI.h */,
+				A905450222C9986A00396728 /* RequestAPIManager+Store.h */,
+				A905450322C9986A00396728 /* RequestAPIManager+shoppingCar.h */,
+				A905450422C9986A00396728 /* RequestAPIManager+Home.h */,
+				A905450522C9986A00396728 /* RequestAPIManager+CenterInformation.m */,
+				A905450622C9986A00396728 /* RequestAPIManager+storeInformation.m */,
+				A905450722C9986A00396728 /* RequestAPIManager+OrderInformation.h */,
+				A905450822C9986A00396728 /* RequestAPIManager+Message.h */,
+				A905450922C9986A00396728 /* RequestAPIManager+Details.m */,
+				A905450A22C9986A00396728 /* RequestAPIManager+CenterInformation.h */,
+				A905450B22C9986A00396728 /* RequestAPIManager+Home.m */,
+				A905450C22C9986A00396728 /* RequestAPIManager+shoppingCar.m */,
+				A905450D22C9986A00396728 /* RequestAPIManager+Store.m */,
+				A905450E22C9986A00396728 /* RequestAPIManager+PersonalInformationAPI.m */,
+			);
+			path = API_Categories;
+			sourceTree = "<group>";
+		};
+		A905451D22C99BF900396728 /* WUGestureUnlockView */ = {
+			isa = PBXGroup;
+			children = (
+				A905453F22C99C1300396728 /* Assets */,
+				A905452222C99BF900396728 /* WUGesturesUnlockViewController.h */,
+				A905452A22C99BF900396728 /* WUGesturesUnlockViewController.m */,
+				A905452022C99BF900396728 /* WUGesturesUnlockViewController.xib */,
+				A905451E22C99BF900396728 /* WUGesturesUnlockIndicator.h */,
+				A905452422C99BF900396728 /* WUGesturesUnlockIndicator.m */,
+				A905452322C99BF900396728 /* WUGesturesUnlockView.h */,
+				A905452E22C99BF900396728 /* WUGesturesUnlockView.m */,
+			);
+			path = WUGestureUnlockView;
+			sourceTree = "<group>";
+		};
+		A905453F22C99C1300396728 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A905452F22C99BF900396728 /* gesture@3x.png */,
+				A905452B22C99BF900396728 /* selective gestures@3x.png */,
+				A905452C22C99BF900396728 /* selective gestures@2x.png */,
+				A905452D22C99BF900396728 /* gesture.png */,
+				A905452522C99BF900396728 /* gesture_indicator_selected@2x.png */,
+				A905452622C99BF900396728 /* gesture_normal@2x.png */,
+				A905452722C99BF900396728 /* gesture_selected@2x.png */,
+				A905452822C99BF900396728 /* selective gestures.png */,
+				A905452922C99BF900396728 /* gesture@2x.png */,
+				A905452122C99BF900396728 /* gesture_indicator_normal@2x.png */,
+				A905451F22C99BF900396728 /* gesture_headIcon@2x.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		AC95FC809F4CA3F642FC7238 /* Pods */ = {
@@ -262,8 +426,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90544C922C8DA4100396728 /* LaunchScreen.storyboard in Resources */,
+				A905453C22C99BF900396728 /* gesture.png in Resources */,
+				A905453022C99BF900396728 /* gesture_headIcon@2x.png in Resources */,
+				A905453822C99BF900396728 /* gesture@2x.png in Resources */,
+				A905453122C99BF900396728 /* WUGesturesUnlockViewController.xib in Resources */,
+				A905453522C99BF900396728 /* gesture_normal@2x.png in Resources */,
+				A905453422C99BF900396728 /* gesture_indicator_selected@2x.png in Resources */,
 				A90544C622C8DA4100396728 /* Assets.xcassets in Resources */,
+				A905453222C99BF900396728 /* gesture_indicator_normal@2x.png in Resources */,
+				A905453A22C99BF900396728 /* selective gestures@3x.png in Resources */,
 				A90544C422C8DA4100396728 /* Main.storyboard in Resources */,
+				A905453E22C99BFA00396728 /* gesture@3x.png in Resources */,
+				A90544EF22C8E0FE00396728 /* LibraryClass.podspec in Resources */,
+				A905453722C99BF900396728 /* selective gestures.png in Resources */,
+				A905453B22C99BF900396728 /* selective gestures@2x.png in Resources */,
+				A905453622C99BF900396728 /* gesture_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,11 +486,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -327,8 +504,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A905450F22C9986A00396728 /* NSArray+Request.m in Sources */,
+				A905451322C9986A00396728 /* RequestBaseAPI.m in Sources */,
+				A905451522C9986A00396728 /* RequestAPIManager+Message.m in Sources */,
+				A905451722C9986A00396728 /* RequestAPIManager+storeInformation.m in Sources */,
 				A90544C122C8DA4100396728 /* ViewController.m in Sources */,
+				A905453322C99BF900396728 /* WUGesturesUnlockIndicator.m in Sources */,
+				A905451622C9986A00396728 /* RequestAPIManager+CenterInformation.m in Sources */,
+				A905451022C9986A00396728 /* NSErrorHelper.m in Sources */,
+				A905451422C9986A00396728 /* RequestAPIManager+OrderInformation.m in Sources */,
 				A90544CC22C8DA4100396728 /* main.m in Sources */,
+				A905453D22C99BFA00396728 /* WUGesturesUnlockView.m in Sources */,
+				A905451A22C9986A00396728 /* RequestAPIManager+shoppingCar.m in Sources */,
+				A905453922C99BF900396728 /* WUGesturesUnlockViewController.m in Sources */,
+				A905451B22C9986A00396728 /* RequestAPIManager+Store.m in Sources */,
+				A905451C22C9986A00396728 /* RequestAPIManager+PersonalInformationAPI.m in Sources */,
+				A905451922C9986A00396728 /* RequestAPIManager+Home.m in Sources */,
+				A905451122C9986A00396728 /* NSDictionary+Request.m in Sources */,
+				A905451222C9986A00396728 /* RequestAPIManager.m in Sources */,
+				A905451822C9986A00396728 /* RequestAPIManager+Details.m in Sources */,
 				A90544BE22C8DA4100396728 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
