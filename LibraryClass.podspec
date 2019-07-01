@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LibraryClass'
-  s.version          = '0.3'
+  s.version          = '0.4'
   s.summary          = 'LibraryClass.'
 
   s.description      = <<-DESC
