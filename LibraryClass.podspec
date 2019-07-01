@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LibraryClass'
-  s.version          = '0.8'
+  s.version          = '0.9'
   s.summary          = 'LibraryClass.'
 
   s.description      = <<-DESC
@@ -20,11 +20,11 @@ TODO: Add long description of the pod here.
 #s.source_files = 'LibraryClass/**/*'
 
     s.subspec 'HUD_module' do |req|
-    req.source_files = 'LibraryClass/HUD_module/**/*'
+    req.source_files = 'HUD_module/**/*'
     end
 
     s.subspec 'PayID' do |pay|
-    pay.source_files = 'LibraryClass/PayID/**/*'
+    pay.source_files = 'PayID/**/*'
     end
 #s.subspec 'PayID' do |pay|
 #
