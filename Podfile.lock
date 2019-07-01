@@ -1,44 +1,27 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
-    - AFNetworking/NSURLSession
-  - LibraryClass (0.2):
-    - AFNetworking (~> 3.1.0)
-    - LibraryClass/API_Categories (= 0.2)
-    - LibraryClass/RequestAPI_module (= 0.2)
-    - LibraryClass/WUGestureUnlockView (= 0.2)
-  - LibraryClass/API_Categories (0.2):
-    - AFNetworking (~> 3.1.0)
-  - LibraryClass/RequestAPI_module (0.2):
-    - AFNetworking (~> 3.1.0)
-  - LibraryClass/WUGestureUnlockView (0.2):
-    - AFNetworking (~> 3.1.0)
+  - LibraryClass (0.4):
+    - LibraryClass/HUD_module (= 0.4)
+    - LibraryClass/PayID (= 0.4)
+    - MBProgressHUD (~> 1.1.0)
+  - LibraryClass/HUD_module (0.4):
+    - MBProgressHUD (~> 1.1.0)
+  - LibraryClass/PayID (0.4):
+    - MBProgressHUD (~> 1.1.0)
+  - MBProgressHUD (1.1.0)
 
 DEPENDENCIES:
-  - LibraryClass (~> 0.2)
+  - LibraryClass (~> 0.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - AFNetworking
+    - MBProgressHUD
   https://github.com/LiBiYong/SpecsLibrary.git:
     - LibraryClass
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  LibraryClass: aa68b4e91315b039233676b97b8f01edac7441fa
+  LibraryClass: 66f18d624f174b1fd65355dc5c9349e33285c76d
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
 
-PODFILE CHECKSUM: 4302f3f94ea3657e81097224a1ab0f6b4fcd2a84
+PODFILE CHECKSUM: 83a040765e16afe136c444a46c9d3d7d242cef36
 
 COCOAPODS: 1.5.3

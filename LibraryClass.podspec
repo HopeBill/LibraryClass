@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LibraryClass'
-  s.version          = '0.4'
+  s.version          = '0.5'
   s.summary          = 'LibraryClass.'
 
   s.description      = <<-DESC
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
 
   s.resource_bundle= {
    'gesture' => ['LibraryClass/Asstes/*.xcassets']
- }
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit'

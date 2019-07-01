@@ -20,6 +20,17 @@
 		A905457922C9BCC800396728 /* YZAuthID.m in Sources */ = {isa = PBXBuildFile; fileRef = A905457322C9BCC800396728 /* YZAuthID.m */; };
 		A905457A22C9BCC800396728 /* YJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A905457622C9BCC800396728 /* YJProgressHUD.m */; };
 		A905457B22C9BCC800396728 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A905457722C9BCC800396728 /* images.bundle */; };
+		A905458722C9C29C00396728 /* gesture_headIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905457C22C9C29B00396728 /* gesture_headIcon@2x.png */; };
+		A905458822C9C29C00396728 /* selective gestures@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905457D22C9C29B00396728 /* selective gestures@3x.png */; };
+		A905458922C9C29C00396728 /* gesture_indicator_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905457E22C9C29B00396728 /* gesture_indicator_normal@2x.png */; };
+		A905458A22C9C29C00396728 /* selective gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905457F22C9C29B00396728 /* selective gestures@2x.png */; };
+		A905458B22C9C29C00396728 /* gesture.png in Resources */ = {isa = PBXBuildFile; fileRef = A905458022C9C29B00396728 /* gesture.png */; };
+		A905458C22C9C29C00396728 /* selective gestures.png in Resources */ = {isa = PBXBuildFile; fileRef = A905458122C9C29C00396728 /* selective gestures.png */; };
+		A905458D22C9C29C00396728 /* gesture_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905458222C9C29C00396728 /* gesture_normal@2x.png */; };
+		A905458E22C9C29C00396728 /* gesture@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905458322C9C29C00396728 /* gesture@3x.png */; };
+		A905458F22C9C29C00396728 /* gesture_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905458422C9C29C00396728 /* gesture_selected@2x.png */; };
+		A905459022C9C29C00396728 /* gesture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905458522C9C29C00396728 /* gesture@2x.png */; };
+		A905459122C9C29C00396728 /* gesture_indicator_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905458622C9C29C00396728 /* gesture_indicator_selected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +74,17 @@
 		A905457622C9BCC800396728 /* YJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJProgressHUD.m; sourceTree = "<group>"; };
 		A905457722C9BCC800396728 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 		A905457822C9BCC800396728 /* YJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJProgressHUD.h; sourceTree = "<group>"; };
+		A905457C22C9C29B00396728 /* gesture_headIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_headIcon@2x.png"; sourceTree = "<group>"; };
+		A905457D22C9C29B00396728 /* selective gestures@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures@3x.png"; sourceTree = "<group>"; };
+		A905457E22C9C29B00396728 /* gesture_indicator_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_indicator_normal@2x.png"; sourceTree = "<group>"; };
+		A905457F22C9C29B00396728 /* selective gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures@2x.png"; sourceTree = "<group>"; };
+		A905458022C9C29B00396728 /* gesture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture.png; sourceTree = "<group>"; };
+		A905458122C9C29C00396728 /* selective gestures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures.png"; sourceTree = "<group>"; };
+		A905458222C9C29C00396728 /* gesture_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_normal@2x.png"; sourceTree = "<group>"; };
+		A905458322C9C29C00396728 /* gesture@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture@3x.png"; sourceTree = "<group>"; };
+		A905458422C9C29C00396728 /* gesture_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_selected@2x.png"; sourceTree = "<group>"; };
+		A905458522C9C29C00396728 /* gesture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture@2x.png"; sourceTree = "<group>"; };
+		A905458622C9C29C00396728 /* gesture_indicator_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_indicator_selected@2x.png"; sourceTree = "<group>"; };
 		EBB5E2BE3566EFCA2A4C6581 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1696955440402EA77BD836 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +201,17 @@
 		A905457222C9BCC800396728 /* PayID */ = {
 			isa = PBXGroup;
 			children = (
+				A905458122C9C29C00396728 /* selective gestures.png */,
+				A905457F22C9C29B00396728 /* selective gestures@2x.png */,
+				A905457D22C9C29B00396728 /* selective gestures@3x.png */,
+				A905458022C9C29B00396728 /* gesture.png */,
+				A905458522C9C29C00396728 /* gesture@2x.png */,
+				A905458322C9C29C00396728 /* gesture@3x.png */,
+				A905458422C9C29C00396728 /* gesture_selected@2x.png */,
+				A905458222C9C29C00396728 /* gesture_normal@2x.png */,
+				A905458622C9C29C00396728 /* gesture_indicator_selected@2x.png */,
+				A905457E22C9C29B00396728 /* gesture_indicator_normal@2x.png */,
+				A905457C22C9C29B00396728 /* gesture_headIcon@2x.png */,
 				A905457322C9BCC800396728 /* YZAuthID.m */,
 				A905457422C9BCC800396728 /* YZAuthID.h */,
 			);
@@ -216,7 +249,6 @@
 				A90544B622C8DA4100396728 /* Frameworks */,
 				A90544B722C8DA4100396728 /* Resources */,
 				4FD252B9A7D93784C482E05D /* [CP] Embed Pods Frameworks */,
-				1863FD52757FE578E3EF66E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,10 +343,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A905457B22C9BCC800396728 /* images.bundle in Resources */,
+				A905458E22C9C29C00396728 /* gesture@3x.png in Resources */,
+				A905459022C9C29C00396728 /* gesture@2x.png in Resources */,
+				A905459122C9C29C00396728 /* gesture_indicator_selected@2x.png in Resources */,
+				A905458B22C9C29C00396728 /* gesture.png in Resources */,
 				A90544C922C8DA4100396728 /* LaunchScreen.storyboard in Resources */,
+				A905458A22C9C29C00396728 /* selective gestures@2x.png in Resources */,
 				A90544C622C8DA4100396728 /* Assets.xcassets in Resources */,
+				A905458822C9C29C00396728 /* selective gestures@3x.png in Resources */,
+				A905458722C9C29C00396728 /* gesture_headIcon@2x.png in Resources */,
 				A90544C422C8DA4100396728 /* Main.storyboard in Resources */,
 				A90544EF22C8E0FE00396728 /* LibraryClass.podspec in Resources */,
+				A905458D22C9C29C00396728 /* gesture_normal@2x.png in Resources */,
+				A905458C22C9C29C00396728 /* selective gestures.png in Resources */,
+				A905458922C9C29C00396728 /* gesture_indicator_normal@2x.png in Resources */,
+				A905458F22C9C29C00396728 /* gesture_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,24 +378,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1863FD52757FE578E3EF66E9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/LibraryClass/gesture.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gesture.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		312D9CC4A616981F6B9DF1B5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,11 +403,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/LibraryClass/LibraryClass.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LibraryClass.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

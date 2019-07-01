@@ -4,5 +4,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 target 'Example' do
-pod  'LibraryClass', '~> 0.2'
+pod  'LibraryClass', '~> 0.4'
 end
