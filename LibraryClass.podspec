@@ -31,10 +31,9 @@ TODO: Add long description of the pod here.
     wuges = 'LibraryClass/WUGestureUnlockView/**/*'
     end
 
-
   s.resource_bundles = {
-    'wuges' => ['WUGestureUnlockView/Assets/*.png']
-  }
+   'gesture' => ['LibraryClass/Resources/gesture/*.png']
+ }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit'

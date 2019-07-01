@@ -31,21 +31,21 @@
 		A905451A22C9986A00396728 /* RequestAPIManager+shoppingCar.m in Sources */ = {isa = PBXBuildFile; fileRef = A905450C22C9986A00396728 /* RequestAPIManager+shoppingCar.m */; };
 		A905451B22C9986A00396728 /* RequestAPIManager+Store.m in Sources */ = {isa = PBXBuildFile; fileRef = A905450D22C9986A00396728 /* RequestAPIManager+Store.m */; };
 		A905451C22C9986A00396728 /* RequestAPIManager+PersonalInformationAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A905450E22C9986A00396728 /* RequestAPIManager+PersonalInformationAPI.m */; };
-		A905453022C99BF900396728 /* gesture_headIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905451F22C99BF900396728 /* gesture_headIcon@2x.png */; };
 		A905453122C99BF900396728 /* WUGesturesUnlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A905452022C99BF900396728 /* WUGesturesUnlockViewController.xib */; };
-		A905453222C99BF900396728 /* gesture_indicator_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452122C99BF900396728 /* gesture_indicator_normal@2x.png */; };
 		A905453322C99BF900396728 /* WUGesturesUnlockIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A905452422C99BF900396728 /* WUGesturesUnlockIndicator.m */; };
-		A905453422C99BF900396728 /* gesture_indicator_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452522C99BF900396728 /* gesture_indicator_selected@2x.png */; };
-		A905453522C99BF900396728 /* gesture_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452622C99BF900396728 /* gesture_normal@2x.png */; };
-		A905453622C99BF900396728 /* gesture_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452722C99BF900396728 /* gesture_selected@2x.png */; };
-		A905453722C99BF900396728 /* selective gestures.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452822C99BF900396728 /* selective gestures.png */; };
-		A905453822C99BF900396728 /* gesture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452922C99BF900396728 /* gesture@2x.png */; };
 		A905453922C99BF900396728 /* WUGesturesUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A905452A22C99BF900396728 /* WUGesturesUnlockViewController.m */; };
-		A905453A22C99BF900396728 /* selective gestures@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452B22C99BF900396728 /* selective gestures@3x.png */; };
-		A905453B22C99BF900396728 /* selective gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452C22C99BF900396728 /* selective gestures@2x.png */; };
-		A905453C22C99BF900396728 /* gesture.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452D22C99BF900396728 /* gesture.png */; };
 		A905453D22C99BFA00396728 /* WUGesturesUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = A905452E22C99BF900396728 /* WUGesturesUnlockView.m */; };
-		A905453E22C99BFA00396728 /* gesture@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905452F22C99BF900396728 /* gesture@3x.png */; };
+		A905456422C9AC3200396728 /* gesture_headIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905455922C9AC3100396728 /* gesture_headIcon@2x.png */; };
+		A905456522C9AC3200396728 /* gesture_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905455A22C9AC3100396728 /* gesture_normal@2x.png */; };
+		A905456622C9AC3200396728 /* selective gestures.png in Resources */ = {isa = PBXBuildFile; fileRef = A905455B22C9AC3100396728 /* selective gestures.png */; };
+		A905456722C9AC3200396728 /* gesture_indicator_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905455C22C9AC3200396728 /* gesture_indicator_selected@2x.png */; };
+		A905456822C9AC3200396728 /* gesture_indicator_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905455D22C9AC3200396728 /* gesture_indicator_normal@2x.png */; };
+		A905456922C9AC3200396728 /* gesture@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905455E22C9AC3200396728 /* gesture@3x.png */; };
+		A905456A22C9AC3200396728 /* gesture_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905455F22C9AC3200396728 /* gesture_selected@2x.png */; };
+		A905456B22C9AC3200396728 /* gesture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905456022C9AC3200396728 /* gesture@2x.png */; };
+		A905456C22C9AC3200396728 /* selective gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905456122C9AC3200396728 /* selective gestures@2x.png */; };
+		A905456D22C9AC3200396728 /* gesture.png in Resources */ = {isa = PBXBuildFile; fileRef = A905456222C9AC3200396728 /* gesture.png */; };
+		A905456E22C9AC3200396728 /* selective gestures@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A905456322C9AC3200396728 /* selective gestures@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,23 +113,23 @@
 		A905450D22C9986A00396728 /* RequestAPIManager+Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestAPIManager+Store.m"; sourceTree = "<group>"; };
 		A905450E22C9986A00396728 /* RequestAPIManager+PersonalInformationAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RequestAPIManager+PersonalInformationAPI.m"; sourceTree = "<group>"; };
 		A905451E22C99BF900396728 /* WUGesturesUnlockIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUGesturesUnlockIndicator.h; sourceTree = "<group>"; };
-		A905451F22C99BF900396728 /* gesture_headIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_headIcon@2x.png"; sourceTree = "<group>"; };
 		A905452022C99BF900396728 /* WUGesturesUnlockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUGesturesUnlockViewController.xib; sourceTree = "<group>"; };
-		A905452122C99BF900396728 /* gesture_indicator_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_indicator_normal@2x.png"; sourceTree = "<group>"; };
 		A905452222C99BF900396728 /* WUGesturesUnlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUGesturesUnlockViewController.h; sourceTree = "<group>"; };
 		A905452322C99BF900396728 /* WUGesturesUnlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUGesturesUnlockView.h; sourceTree = "<group>"; };
 		A905452422C99BF900396728 /* WUGesturesUnlockIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUGesturesUnlockIndicator.m; sourceTree = "<group>"; };
-		A905452522C99BF900396728 /* gesture_indicator_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_indicator_selected@2x.png"; sourceTree = "<group>"; };
-		A905452622C99BF900396728 /* gesture_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_normal@2x.png"; sourceTree = "<group>"; };
-		A905452722C99BF900396728 /* gesture_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_selected@2x.png"; sourceTree = "<group>"; };
-		A905452822C99BF900396728 /* selective gestures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures.png"; sourceTree = "<group>"; };
-		A905452922C99BF900396728 /* gesture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture@2x.png"; sourceTree = "<group>"; };
 		A905452A22C99BF900396728 /* WUGesturesUnlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUGesturesUnlockViewController.m; sourceTree = "<group>"; };
-		A905452B22C99BF900396728 /* selective gestures@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures@3x.png"; sourceTree = "<group>"; };
-		A905452C22C99BF900396728 /* selective gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures@2x.png"; sourceTree = "<group>"; };
-		A905452D22C99BF900396728 /* gesture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture.png; sourceTree = "<group>"; };
 		A905452E22C99BF900396728 /* WUGesturesUnlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUGesturesUnlockView.m; sourceTree = "<group>"; };
-		A905452F22C99BF900396728 /* gesture@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture@3x.png"; sourceTree = "<group>"; };
+		A905455922C9AC3100396728 /* gesture_headIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_headIcon@2x.png"; sourceTree = "<group>"; };
+		A905455A22C9AC3100396728 /* gesture_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_normal@2x.png"; sourceTree = "<group>"; };
+		A905455B22C9AC3100396728 /* selective gestures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures.png"; sourceTree = "<group>"; };
+		A905455C22C9AC3200396728 /* gesture_indicator_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_indicator_selected@2x.png"; sourceTree = "<group>"; };
+		A905455D22C9AC3200396728 /* gesture_indicator_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_indicator_normal@2x.png"; sourceTree = "<group>"; };
+		A905455E22C9AC3200396728 /* gesture@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture@3x.png"; sourceTree = "<group>"; };
+		A905455F22C9AC3200396728 /* gesture_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_selected@2x.png"; sourceTree = "<group>"; };
+		A905456022C9AC3200396728 /* gesture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture@2x.png"; sourceTree = "<group>"; };
+		A905456122C9AC3200396728 /* selective gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures@2x.png"; sourceTree = "<group>"; };
+		A905456222C9AC3200396728 /* gesture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture.png; sourceTree = "<group>"; };
+		A905456322C9AC3200396728 /* selective gestures@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selective gestures@3x.png"; sourceTree = "<group>"; };
 		EBB5E2BE3566EFCA2A4C6581 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1696955440402EA77BD836 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -229,6 +229,7 @@
 		A90544F022C9986A00396728 /* LibraryClass */ = {
 			isa = PBXGroup;
 			children = (
+				A905455722C9ABB600396728 /* Resources */,
 				A905451D22C99BF900396728 /* WUGestureUnlockView */,
 				A90544F122C9986A00396728 /* RequestAPI_module */,
 				A90544FC22C9986A00396728 /* API_Categories */,
@@ -281,7 +282,6 @@
 		A905451D22C99BF900396728 /* WUGestureUnlockView */ = {
 			isa = PBXGroup;
 			children = (
-				A905453F22C99C1300396728 /* Assets */,
 				A905452222C99BF900396728 /* WUGesturesUnlockViewController.h */,
 				A905452A22C99BF900396728 /* WUGesturesUnlockViewController.m */,
 				A905452022C99BF900396728 /* WUGesturesUnlockViewController.xib */,
@@ -293,22 +293,30 @@
 			path = WUGestureUnlockView;
 			sourceTree = "<group>";
 		};
-		A905453F22C99C1300396728 /* Assets */ = {
+		A905455722C9ABB600396728 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A905452F22C99BF900396728 /* gesture@3x.png */,
-				A905452B22C99BF900396728 /* selective gestures@3x.png */,
-				A905452C22C99BF900396728 /* selective gestures@2x.png */,
-				A905452D22C99BF900396728 /* gesture.png */,
-				A905452522C99BF900396728 /* gesture_indicator_selected@2x.png */,
-				A905452622C99BF900396728 /* gesture_normal@2x.png */,
-				A905452722C99BF900396728 /* gesture_selected@2x.png */,
-				A905452822C99BF900396728 /* selective gestures.png */,
-				A905452922C99BF900396728 /* gesture@2x.png */,
-				A905452122C99BF900396728 /* gesture_indicator_normal@2x.png */,
-				A905451F22C99BF900396728 /* gesture_headIcon@2x.png */,
+				A905455822C9ABB600396728 /* gesture */,
 			);
-			path = Assets;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A905455822C9ABB600396728 /* gesture */ = {
+			isa = PBXGroup;
+			children = (
+				A905455B22C9AC3100396728 /* selective gestures.png */,
+				A905456122C9AC3200396728 /* selective gestures@2x.png */,
+				A905456322C9AC3200396728 /* selective gestures@3x.png */,
+				A905456222C9AC3200396728 /* gesture.png */,
+				A905456022C9AC3200396728 /* gesture@2x.png */,
+				A905455E22C9AC3200396728 /* gesture@3x.png */,
+				A905455F22C9AC3200396728 /* gesture_selected@2x.png */,
+				A905455A22C9AC3100396728 /* gesture_normal@2x.png */,
+				A905455C22C9AC3200396728 /* gesture_indicator_selected@2x.png */,
+				A905455D22C9AC3200396728 /* gesture_indicator_normal@2x.png */,
+				A905455922C9AC3100396728 /* gesture_headIcon@2x.png */,
+			);
+			path = gesture;
 			sourceTree = "<group>";
 		};
 		AC95FC809F4CA3F642FC7238 /* Pods */ = {
@@ -426,21 +434,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90544C922C8DA4100396728 /* LaunchScreen.storyboard in Resources */,
-				A905453C22C99BF900396728 /* gesture.png in Resources */,
-				A905453022C99BF900396728 /* gesture_headIcon@2x.png in Resources */,
-				A905453822C99BF900396728 /* gesture@2x.png in Resources */,
+				A905456D22C9AC3200396728 /* gesture.png in Resources */,
+				A905456822C9AC3200396728 /* gesture_indicator_normal@2x.png in Resources */,
 				A905453122C99BF900396728 /* WUGesturesUnlockViewController.xib in Resources */,
-				A905453522C99BF900396728 /* gesture_normal@2x.png in Resources */,
-				A905453422C99BF900396728 /* gesture_indicator_selected@2x.png in Resources */,
 				A90544C622C8DA4100396728 /* Assets.xcassets in Resources */,
-				A905453222C99BF900396728 /* gesture_indicator_normal@2x.png in Resources */,
-				A905453A22C99BF900396728 /* selective gestures@3x.png in Resources */,
+				A905456722C9AC3200396728 /* gesture_indicator_selected@2x.png in Resources */,
+				A905456422C9AC3200396728 /* gesture_headIcon@2x.png in Resources */,
 				A90544C422C8DA4100396728 /* Main.storyboard in Resources */,
-				A905453E22C99BFA00396728 /* gesture@3x.png in Resources */,
+				A905456B22C9AC3200396728 /* gesture@2x.png in Resources */,
+				A905456522C9AC3200396728 /* gesture_normal@2x.png in Resources */,
 				A90544EF22C8E0FE00396728 /* LibraryClass.podspec in Resources */,
-				A905453722C99BF900396728 /* selective gestures.png in Resources */,
-				A905453B22C99BF900396728 /* selective gestures@2x.png in Resources */,
-				A905453622C99BF900396728 /* gesture_selected@2x.png in Resources */,
+				A905456622C9AC3200396728 /* selective gestures.png in Resources */,
+				A905456922C9AC3200396728 /* gesture@3x.png in Resources */,
+				A905456E22C9AC3200396728 /* selective gestures@3x.png in Resources */,
+				A905456C22C9AC3200396728 /* selective gestures@2x.png in Resources */,
+				A905456A22C9AC3200396728 /* gesture_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
