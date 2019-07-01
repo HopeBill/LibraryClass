@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LibraryClass'
-  s.version          = '0.2'
+  s.version          = '0.3'
   s.summary          = 'LibraryClass.'
 
   s.description      = <<-DESC
@@ -19,23 +19,19 @@ TODO: Add long description of the pod here.
 
 #s.source_files = 'LibraryClass/**/*'
 
-    s.subspec 'RequestAPI_module' do |req|
-    req.source_files = 'LibraryClass/RequestAPI_module/**/*'
+    s.subspec 'HUD_module' do |req|
+    req.source_files = 'LibraryClass/HUD_module/**/*'
     end
 
-    s.subspec 'API_Categories' do |categ|
-    categ.source_files = 'LibraryClass/API_Categories/**/*'
+    s.subspec 'PayID' do |pay|
+    pay.source_files = 'LibraryClass/PayID/**/*'
     end
 
-    s.subspec 'WUGestureUnlockView' do |wuges|
-    wuges.source_files = 'LibraryClass/WUGestureUnlockView/**/*'
-    end
-
-  s.resource_bundles = {
-   'gesture' => ['LibraryClass/Resources/gesture/*.png']
+  s.resource_bundle= {
+   'gesture' => ['LibraryClass/Asstes/*.xcassets']
  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit'
-  s.dependency 'AFNetworking',     '~>3.1.0'
+  s.dependency 'MBProgressHUD',        '~>1.1.0'
 end
