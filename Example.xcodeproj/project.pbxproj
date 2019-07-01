@@ -201,17 +201,7 @@
 		A905457222C9BCC800396728 /* PayID */ = {
 			isa = PBXGroup;
 			children = (
-				A905458122C9C29C00396728 /* selective gestures.png */,
-				A905457F22C9C29B00396728 /* selective gestures@2x.png */,
-				A905457D22C9C29B00396728 /* selective gestures@3x.png */,
-				A905458022C9C29B00396728 /* gesture.png */,
-				A905458522C9C29C00396728 /* gesture@2x.png */,
-				A905458322C9C29C00396728 /* gesture@3x.png */,
-				A905458422C9C29C00396728 /* gesture_selected@2x.png */,
-				A905458222C9C29C00396728 /* gesture_normal@2x.png */,
-				A905458622C9C29C00396728 /* gesture_indicator_selected@2x.png */,
-				A905457E22C9C29B00396728 /* gesture_indicator_normal@2x.png */,
-				A905457C22C9C29B00396728 /* gesture_headIcon@2x.png */,
+				A905459222C9CB2300396728 /* payImage */,
 				A905457322C9BCC800396728 /* YZAuthID.m */,
 				A905457422C9BCC800396728 /* YZAuthID.h */,
 			);
@@ -226,6 +216,24 @@
 				A905457822C9BCC800396728 /* YJProgressHUD.h */,
 			);
 			path = HUD_module;
+			sourceTree = "<group>";
+		};
+		A905459222C9CB2300396728 /* payImage */ = {
+			isa = PBXGroup;
+			children = (
+				A905458122C9C29C00396728 /* selective gestures.png */,
+				A905457F22C9C29B00396728 /* selective gestures@2x.png */,
+				A905457D22C9C29B00396728 /* selective gestures@3x.png */,
+				A905458022C9C29B00396728 /* gesture.png */,
+				A905458522C9C29C00396728 /* gesture@2x.png */,
+				A905458322C9C29C00396728 /* gesture@3x.png */,
+				A905458422C9C29C00396728 /* gesture_selected@2x.png */,
+				A905458222C9C29C00396728 /* gesture_normal@2x.png */,
+				A905458622C9C29C00396728 /* gesture_indicator_selected@2x.png */,
+				A905457E22C9C29B00396728 /* gesture_indicator_normal@2x.png */,
+				A905457C22C9C29B00396728 /* gesture_headIcon@2x.png */,
+			);
+			path = payImage;
 			sourceTree = "<group>";
 		};
 		AC95FC809F4CA3F642FC7238 /* Pods */ = {

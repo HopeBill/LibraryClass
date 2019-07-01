@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LibraryClass'
-  s.version          = '0.5'
+  s.version          = '0.6'
   s.summary          = 'LibraryClass.'
 
   s.description      = <<-DESC
@@ -26,10 +26,15 @@ TODO: Add long description of the pod here.
     s.subspec 'PayID' do |pay|
     pay.source_files = 'LibraryClass/PayID/**/*'
     end
+    s.subspec 'PayID' do |pay|
+        pay.resource_bundle= {
+        'gesture' => ['PayID/payImage/*.png']
+        }
+    end
 
-  s.resource_bundle= {
-   'gesture' => ['LibraryClass/Asstes/*.xcassets']
-  }
+    s.resource_bundle= {
+    'gesture' => ['LibraryClass/Asstes/*.xcassets']
+    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit'
