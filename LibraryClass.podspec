@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LibraryClass'
-  s.version          = '0.9.2'
+  s.version          = '0.9.3'
   s.summary          = 'LibraryClass.'
 
   s.description      = <<-DESC
@@ -17,19 +17,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-    #s.source_files = 'LibraryClass/**/*'
+  #s.source_files = 'LibraryClass/**/*'
 
-    s.subspec 'RequestAPI_module' do |reques|
-    reques.source_files = 'LibraryClass/RequestAPI_module/**/*'
-    end
-
-    #  s.resource_bundle= {
-    #     'AsstesImageBundle' => ['LibraryClass/PayID/AsstesImage/*.png']
-    #  }
+  #  s.resource_bundle= {
+  #     'AsstesImageBundle' => ['LibraryClass/AsstesImage/*.png']
+  #  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit'
-  s.dependency 'AFNetworking',         '~>3.1.0'
   s.dependency 'SDWebImage',       '~>4.4.2'
-  s.dependency 'ResourceUtilityClass' 
 end

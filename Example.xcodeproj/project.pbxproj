@@ -15,12 +15,8 @@
 		A90544CC22C8DA4100396728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544CB22C8DA4100396728 /* main.m */; };
 		A90544D622C8DA4200396728 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544D522C8DA4200396728 /* ExampleTests.m */; };
 		A90544E122C8DA4200396728 /* ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A90544E022C8DA4200396728 /* ExampleUITests.m */; };
-		A905466122CB030200396728 /* NSArray+Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A905464322CB030200396728 /* NSArray+Request.m */; };
-		A905466222CB030200396728 /* NSErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A905464822CB030200396728 /* NSErrorHelper.m */; };
-		A905466322CB030200396728 /* NSDictionary+Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A905464A22CB030200396728 /* NSDictionary+Request.m */; };
-		A905466422CB030200396728 /* RequestAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A905464B22CB030200396728 /* RequestAPIManager.m */; };
-		A905466522CB030200396728 /* RequestBaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A905464C22CB030200396728 /* RequestBaseAPI.m */; };
 		A90E558E22CC4C910026CC05 /* LibraryClass.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A90E558D22CC4C910026CC05 /* LibraryClass.podspec */; };
+		A90E569522CCB58B0026CC05 /* UIImageView+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A90E569322CCB58B0026CC05 /* UIImageView+Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,18 +53,9 @@
 		A90544DC22C8DA4200396728 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90544E022C8DA4200396728 /* ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUITests.m; sourceTree = "<group>"; };
 		A90544E222C8DA4200396728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A905464322CB030200396728 /* NSArray+Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Request.m"; sourceTree = "<group>"; };
-		A905464422CB030200396728 /* NSErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSErrorHelper.h; sourceTree = "<group>"; };
-		A905464522CB030200396728 /* NSDictionary+Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Request.h"; sourceTree = "<group>"; };
-		A905464622CB030200396728 /* RequestAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestAPIManager.h; sourceTree = "<group>"; };
-		A905464722CB030200396728 /* RequestBaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestBaseAPI.h; sourceTree = "<group>"; };
-		A905464822CB030200396728 /* NSErrorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSErrorHelper.m; sourceTree = "<group>"; };
-		A905464922CB030200396728 /* NSArray+Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Request.h"; sourceTree = "<group>"; };
-		A905464A22CB030200396728 /* NSDictionary+Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Request.m"; sourceTree = "<group>"; };
-		A905464B22CB030200396728 /* RequestAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestAPIManager.m; sourceTree = "<group>"; };
-		A905464C22CB030200396728 /* RequestBaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestBaseAPI.m; sourceTree = "<group>"; };
-		A90E558D22CC4C910026CC05 /* LibraryClass.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LibraryClass.podspec; sourceTree = SOURCE_ROOT; };
-		A90E558F22CC58CD0026CC05 /* LibraryClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryClass.h; sourceTree = "<group>"; };
+		A90E558D22CC4C910026CC05 /* LibraryClass.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LibraryClass.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A90E569322CCB58B0026CC05 /* UIImageView+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Tool.m"; sourceTree = "<group>"; };
+		A90E569422CCB58B0026CC05 /* UIImageView+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Tool.h"; sourceTree = "<group>"; };
 		EBB5E2BE3566EFCA2A4C6581 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1696955440402EA77BD836 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,28 +154,11 @@
 		A90544F022C9986A00396728 /* LibraryClass */ = {
 			isa = PBXGroup;
 			children = (
-				A905464222CB030200396728 /* RequestAPI_module */,
+				A90E569422CCB58B0026CC05 /* UIImageView+Tool.h */,
+				A90E569322CCB58B0026CC05 /* UIImageView+Tool.m */,
 			);
 			path = LibraryClass;
 			sourceTree = SOURCE_ROOT;
-		};
-		A905464222CB030200396728 /* RequestAPI_module */ = {
-			isa = PBXGroup;
-			children = (
-				A905464922CB030200396728 /* NSArray+Request.h */,
-				A905464322CB030200396728 /* NSArray+Request.m */,
-				A905464522CB030200396728 /* NSDictionary+Request.h */,
-				A905464A22CB030200396728 /* NSDictionary+Request.m */,
-				A905464422CB030200396728 /* NSErrorHelper.h */,
-				A905464822CB030200396728 /* NSErrorHelper.m */,
-				A905464622CB030200396728 /* RequestAPIManager.h */,
-				A905464B22CB030200396728 /* RequestAPIManager.m */,
-				A905464722CB030200396728 /* RequestBaseAPI.h */,
-				A905464C22CB030200396728 /* RequestBaseAPI.m */,
-				A90E558F22CC58CD0026CC05 /* LibraryClass.h */,
-			);
-			path = RequestAPI_module;
-			sourceTree = "<group>";
 		};
 		AC95FC809F4CA3F642FC7238 /* Pods */ = {
 			isa = PBXGroup;
@@ -352,18 +322,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/LibraryClass/LibraryClass.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/ResourceUtilityClass/ResourceUtilityClass.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LibraryClass.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResourceUtilityClass.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,12 +342,8 @@
 			files = (
 				A90544C122C8DA4100396728 /* ViewController.m in Sources */,
 				A90544CC22C8DA4100396728 /* main.m in Sources */,
-				A905466122CB030200396728 /* NSArray+Request.m in Sources */,
+				A90E569522CCB58B0026CC05 /* UIImageView+Tool.m in Sources */,
 				A90544BE22C8DA4100396728 /* AppDelegate.m in Sources */,
-				A905466322CB030200396728 /* NSDictionary+Request.m in Sources */,
-				A905466222CB030200396728 /* NSErrorHelper.m in Sources */,
-				A905466422CB030200396728 /* RequestAPIManager.m in Sources */,
-				A905466522CB030200396728 /* RequestBaseAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

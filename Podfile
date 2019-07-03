@@ -5,5 +5,4 @@ platform :ios, '8.0'
 use_frameworks!
 target 'Example' do
 pod  'LibraryClass', :path =>'../LibraryClass'
-pod  'ResourceUtilityClass', '~>0.1.4'
 end
