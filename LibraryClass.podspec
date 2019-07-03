@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LibraryClass'
-  s.version          = '0.9'
+  s.version          = '0.9.2'
   s.summary          = 'LibraryClass.'
 
   s.description      = <<-DESC
@@ -17,26 +17,19 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-#s.source_files = 'LibraryClass/**/*'
+    #s.source_files = 'LibraryClass/**/*'
 
-    s.subspec 'HUD_module' do |req|
-    req.source_files = 'HUD_module/**/*'
+    s.subspec 'RequestAPI_module' do |reques|
+    reques.source_files = 'LibraryClass/RequestAPI_module/**/*'
     end
 
-    s.subspec 'PayID' do |pay|
-    pay.source_files = 'PayID/**/*'
-    end
-#s.subspec 'PayID' do |pay|
-#
-#'payImage' => ['PayID/Asstes/*.png']
-# }
-# end
-
-    s.resource_bundle= {
-      'AsstesImageBundle' => ['LibraryClass/PayID/AsstesImage/*.png']
-    }
+    #  s.resource_bundle= {
+    #     'AsstesImageBundle' => ['LibraryClass/PayID/AsstesImage/*.png']
+    #  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit'
-  s.dependency 'MBProgressHUD',        '~>1.1.0'
+  s.dependency 'AFNetworking',         '~>3.1.0'
+  s.dependency 'SDWebImage',       '~>4.4.2'
+  s.dependency 'ResourceUtilityClass' 
 end

@@ -10,8 +10,11 @@
 #endif
 #endif
 
-#import "YJProgressHUD.h"
-#import "YZAuthID.h"
+#import "NSArray+Request.h"
+#import "NSDictionary+Request.h"
+#import "NSErrorHelper.h"
+#import "RequestAPIManager.h"
+#import "RequestBaseAPI.h"
 
 FOUNDATION_EXPORT double LibraryClassVersionNumber;
 FOUNDATION_EXPORT const unsigned char LibraryClassVersionString[];

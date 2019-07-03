@@ -4,5 +4,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 target 'Example' do
-pod  'LibraryClass', '~> 0.4'
+pod  'LibraryClass', :path =>'../LibraryClass'
+pod  'ResourceUtilityClass', '~>0.1.4'
 end

@@ -1,0 +1,38 @@
+{
+  "name": "LibraryClass",
+  "version": "0.9.1",
+  "summary": "LibraryClass.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LiBiYong/LibraryClass",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1255418023@qq.com": "1255418023@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LiBiYong/LibraryClass.git",
+    "tag": "0.9.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "MBProgressHUD": [
+      "~>1.1.0"
+    ],
+    "AFNetworking": [
+      "~>3.1.0"
+    ],
+    "ResourceUtilityClass": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "RequestAPI_module",
+      "source_files": "LibraryClass/RequestAPI_module/**/*"
+    }
+  ]
+}
